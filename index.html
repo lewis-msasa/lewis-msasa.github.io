@@ -1,45 +1,139 @@
-<!DOCTYPE HTML>  
-<html>  
-    <header>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="table_style.css">
-        <title>My Webpage Title</title>
-    </header>
-    <body>  
-        <!---Navigation--->
-        <!--This section of code defines the navigation bar at the top of the page.  The classes used here are defined in the style.css file.-->
-        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-            <div class="container">
-                <!--This code defines the "My Webpage" link in the top left corner of the navigation pane-->
-                <a class="navbar-brand" href="./index.html">My Webpage</a>
-                <!--This code defines the "List" link in the top right corner of the navigation pane-->
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="./list.html">List</a></li>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Resume - Start Bootstrap Theme</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a href="">My Website</a>
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Lewis Msasa</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile 1E7BE5 rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                 </ul>
             </div>
         </nav>
-        <!--This section defines the middle section of the webpage-->
-        <header class="masthead bg-primary text-white text-center">
-            <div class="container d-flex align-items-center flex-column">
-                
-                <!-- This code is for the student name-->
-                <h1 class="masthead-heading text-uppercase mb-0">Test Student</h1>
-                <!--This code creates the two lines separating the student name from the subtitle-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-line"></div>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Lewis
+                        <span class="text-primary">Msasa</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        9573 Spring River Way. Elk Grove, CA 95624. (530) 407-7452
+                        <a href="mailto:name@email.com">lewis_msasa@berkeley.edu</a>
+                    </div>
+                    <p class="lead mb-5">
+                        A software Engineer with at least 9 years of experience. I have worked mostly in the Financial Sector developing payment related software. Conversant with both front-end and backend software development. I also have experience in mobile and blockchain development. Apart from software engineering skills, I am also a PMI certified project manager and a certified Enterprise Architect.
+                    </p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.linkedin.com/in/lewis-msasa-jr-pmp-72732a1a/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BAIWcftFqTu6hJpSlhc9IUA%3D%3D"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/redeemed101"><i class="fab fa-github"></i></a>
+                      
+                    </div>
                 </div>
-                <!--This code creates the subheading underneath the line dividers-->
-                <p class="masthead-subheading font-weight-light mb-0">School of Information Student</p>
-            </div>
-        </header>
-        <section class="text-center">
-
-            <div class="col-md-6 col-lg-4 mb-5">
-                <!-- put your bio paragraph here; remember to use the correct html tags -->
-                
-            </div>
-        </section>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content" id="experience-content">
+                    <h2 class="mb-5" id="experience-header">Experience</h2>
+                   
+                   
+                </div>
+            </section>
+            <hr class="m-0" />
+            
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <ul class="fa-ul mb-0" id="skill-list">
+                       
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+          
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
     </body>
+    <script>
 
+
+
+        const experienceBody = document.getElementById('experience-content');
+        const experienceHeader = document.getElementById('experience-header');       
+        
+        fetch('./list_data.json')
+        .then(response => response.json())
+        .then(data => {
+            let root;
+            for (let prop in data) {
+                    root = prop;
+            }
+            let headers = Object.keys(data[root][0]);
+            let jobs= data[root];
+            jobs.forEach(exp => {
+                let container = document.createElement("div");
+                
+                container.innerHTML = `                  
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">${exp.name}</h3>
+                            <div class="subheading mb-3">${exp.company}</div>
+                            <p>${exp.details}</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">${exp.period}</span></div>
+                    </div>
+                `;
+                experienceBody.append(container);
+            })
+      
+        });
+
+
+        const skillList = document.getElementById('skill-list');  
+        fetch('./skills_list.json')
+        .then(response => response.json())
+        .then(books => {
+            books.forEach(exp => {
+                var li = document.createElement('li');
+                li.innerHTML = `
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            ${exp.name}
+                        
+                `;
+                skillList.appendChild(li);
+            })
+      
+        });
+
+</script> 
 </html>
