@@ -55,16 +55,7 @@
                     </div>
                 </div>
             </section>
-            <hr class="m-0" />
-            <!-- Experience-->
-            <section class="resume-section" id="experience">
-                <div class="resume-section-content" id="experience-content">
-                    <h2 class="mb-5" id="experience-header">Experience</h2>
-                   
-                   
-                </div>
-            </section>
-            <hr class="m-0" />
+         
             
             <hr class="m-0" />
             <!-- Skills-->
@@ -87,36 +78,6 @@
     <script>
 
 
-
-        const experienceBody = document.getElementById('experience-content');
-        const experienceHeader = document.getElementById('experience-header');       
-        
-        fetch('./list_data.json')
-        .then(response => response.json())
-        .then(data => {
-            let root;
-            for (let prop in data) {
-                    root = prop;
-            }
-            let headers = Object.keys(data[root][0]);
-            let jobs= data[root];
-            jobs.forEach(exp => {
-                let container = document.createElement("div");
-                
-                container.innerHTML = `                  
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">${exp.name}</h3>
-                            <div class="subheading mb-3">${exp.company}</div>
-                            <p>${exp.details}</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">${exp.period}</span></div>
-                    </div>
-                `;
-                experienceBody.append(container);
-            })
-      
-        });
 
 
         const skillList = document.getElementById('skill-list');  
