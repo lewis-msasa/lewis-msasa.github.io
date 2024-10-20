@@ -60,7 +60,14 @@
                 "company": "MUBAS",
                 "details": "Worked as a part-time lecturer teaching C++ programming. Responsibilities included preparing and delivering lectures, as well as marking and grading student papers.",
                 "period" : "September 2017 - February 2018"
-            }
+            },
+                {
+            "name" : "Founder",
+            "company": "Technify Malawi Program",
+            "details": "Founded an initiative aimed at increasing access to ICT for underprivileged youths by mobilizing and donating computers to secondary schools. Key achievements: Donated computers to St Martin Open Day Secondary School, which helped the school introduce computer studies and reduce absenteeism. Also donated computers to Neno Girls Secondary School.",
+            "period" : "August 2018 - Present"
+        }
+
      
   ]
 }
