@@ -1,5 +1,10 @@
 [
     {
+        "name": "Machine Learning",
+        "details" : "I am skilled in Machine Learning and usually focuses on Computer Vision mainly working with CNNs and a bit of Vision Transformers. Skilled in working with Pytorch, OpenCV"
+        
+    },
+    {
     "name": "Software Engineering",
     "details": "I am a skilled backend developer (primarily working with Golang and .NET Core) and conversant with frontend development (React.js, .NET Blazor) and mobile application development (Android, React Native, Flutter). Additionally, I am a Blockchain Developer skilled in Hyperledger Fabric."
    },
