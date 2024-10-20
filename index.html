@@ -97,21 +97,7 @@
 
 
 
-        const skillList = document.getElementById('skill-list');  
-        fetch('./skills_list.json')
-        .then(response => response.json())
-        .then(books => {
-            books.forEach(exp => {
-                var li = document.createElement('li');
-                li.innerHTML = `
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            ${exp.name}
-                        
-                `;
-                skillList.appendChild(li);
-            })
-      
-        });
+       
 
 </script> 
 </html>
