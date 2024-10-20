@@ -1,20 +1,22 @@
 [
     {
-        "name" : "Machine Learning"
-    },
+    "name": "Software Engineering",
+    "details": "I am a skilled backend developer (primarily working with Golang and .NET Core) and conversant with frontend development (React.js, .NET Blazor) and mobile application development (Android, React Native, Flutter). Additionally, I am a Blockchain Developer skilled in Hyperledger Fabric."
+   },
     {
-        "name" : "Enterprise Architecture"
-    },
-    {
-        "name" : "Mobile Application Development"
-    },
-    {
-        "name" : "Front-End Development"
-    },
-    {
-        "name" : "Backend Development"
-    },
-    {
-        "name" : "Blockchain Development"
-    }
+            "name": "Project Management",
+            "details": "I am skilled in Project Management, a member of the Project Management Institute, and PMP Certified. Through PMP, I am conversant with the PMBOK, which includes Cost Management, Schedule Management, Stakeholder Management, Risk Management, and Quality Management."
+        },
+        {
+            "name": "Change Enablement and Change Management",
+            "details": "Being conversant with Project Management and IT Enterprise Governance (COBIT certified), I am familiar with Change Management and Change Enablement when implementing projects."
+        },
+        {
+            "name": "Enterprise Governance",
+            "details": "Through COBIT, in which I am certified at the Design and Implementation Level, I am familiar with Enterprise Governance, especially in IT. This includes change control and governance skills."
+        },
+        {
+            "name": "Enterprise Architecture",
+            "details": "Through TOGAF, in which I am certified, I am skilled in Enterprise Architecture. This equips me to help enterprises build IT systems that are structured to align with business strategy and promote responsiveness to change, agility, and resilience."
+        }
 ]
