@@ -57,18 +57,13 @@
 
 
         const experienceBody = document.getElementById('skills-content');
-        const experienceHeader = document.getElementById('skills-header');       
-        
+        const experienceHeader = document.getElementById('skills-header'); 
+
+         const skillList = document.getElementById('skill-list');  
         fetch('./skills_list.json')
         .then(response => response.json())
-        .then(data => {
-            let root;
-            for (let prop in data) {
-                    root = prop;
-            }
-            let headers = Object.keys(data[root][0]);
-            let jobs= data[root];
-            jobs.forEach(exp => {
+        .then(skills => {
+            skills.forEach(exp => {
                 let container = document.createElement("div");
                 
                 container.innerHTML = `                  
@@ -85,6 +80,8 @@
             })
       
         });
+        
+       
 
 
 
