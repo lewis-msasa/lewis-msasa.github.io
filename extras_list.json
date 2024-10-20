@@ -1,4 +1,5 @@
-[
+{
+  "extras": [
    {
     "name": "Mentor/Founder",
     "company": "DeepLife Mentorship Program",
@@ -18,3 +19,4 @@
     "period": "October 2016 - October 2019"
   }
 ]
+}
