@@ -1,22 +1,22 @@
 {
   "extras": [
-   {
-    "name": "Mentor/Founder",
-    "company": "DeepLife Mentorship Program",
-    "details": "We mentor college students in various aspects of life. Key responsibilities include helping students achieve academic excellence and training them in soft skills.",
-    "period": "January 2020 - Present"
-   },
-  {
-    "name": "Founder",
-    "company": "Technify Malawi Program",
-    "details": "An initiative focused on increasing access to ICT for underprivileged youths by mobilizing and donating computers to secondary schools.",
-    "period": "August 2018 - Present"
- },
-  {
-    "name": "Director of Campus Ministry",
-    "company": "Raised For A Purpose Ministries",
-    "details": "Responsible for overseeing a mentorship program in college campuses and leading campus mentors. Key achievements include expanding the ministry's presence from 2 campuses to over 15 campuses, and personally launching 5 new campuses.",
-    "period": "October 2016 - October 2019"
-  }
-]
+         {
+          "name": "Mentor/Founder",
+          "company": "DeepLife Mentorship Program",
+          "details": "We mentor college students in various aspects of life. Key responsibilities include helping students achieve academic excellence and training them in soft skills.",
+          "period": "January 2020 - Present"
+         },
+        {
+          "name": "Founder",
+          "company": "Technify Malawi Program",
+          "details": "An initiative focused on increasing access to ICT for underprivileged youths by mobilizing and donating computers to secondary schools.",
+          "period": "August 2018 - Present"
+       },
+        {
+          "name": "Director of Campus Ministry",
+          "company": "Raised For A Purpose Ministries",
+          "details": "Responsible for overseeing a mentorship program in college campuses and leading campus mentors. Key achievements include expanding the ministry's presence from 2 campuses to over 15 campuses, and personally launching 5 new campuses.",
+          "period": "October 2016 - October 2019"
+        }
+    ]
 }
