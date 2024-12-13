@@ -4,7 +4,6 @@
                     "name" : "Researcher",
                     "company": "Malawi University of Business and Applied Sciences",
                     "details": "Contributing to research at the AI Lab, including ideation, field research, and stakeholder collaboration. Key achievement: Created a dataset for computer vision-based natural disaster damage classification and building detection, which involved annotating pre-disaster and post-disaster images and building a model to test the dataset.
-                                
                                 Our dataset is part of the Zindi Africa Challenge( won first place). The challenge can be accessed <a href='https://zindi.africa/competitions/kuyesera-ai-disaster-damage-and-displacement-challenge/data'>here</a>",
                     "period" : "May 2024 - Present"
                 },
