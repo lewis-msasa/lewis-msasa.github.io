@@ -78,8 +78,8 @@
                 container.innerHTML = `                  
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">${exp.title} (${exp.type})</h3>
-                            <div class="subheading mb-3">${exp.authors}</div>
+                            <div class="subheading mb-3">${exp.title} (${exp.type})</div>
+                            <p>${exp.authors}</p>
                             <p>${exp.details}</p>
                             ${exp.link !== '#' ? `<a href="${exp.link}">access here</a>` : `<p></p>`}
                         </div>
