@@ -1,0 +1,13 @@
+{
+    "research" : [
+                {
+                    "type" : "Paper",
+                    "title": "mwBTFreddy: A building detection dataset for Sub-Saharan Africa",
+                    "authors": "Chapuma, Mengezi, Msasa, Taylor",
+                     "link" : "https://arxiv.org/abs/2505.01242",
+                    "details": "Malawi-BD- A dataset for machine learning object detection and damage classification for Sub-Saharan Africa. Using Machine learning and remote sensing",
+                    "date" : "2024"
+                }
+     
+  ]
+}
