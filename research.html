@@ -81,7 +81,7 @@
                             <h3 class="mb-0">${exp.title} (${exp.type})</h3>
                             <div class="subheading mb-3">${exp.authors}</div>
                             <p>${exp.details}</p>
-                            exp.link !== '#' ? <a href="${exp.link}">access here</a> : <p></p>
+                            ${exp.link !== '#' ? <a href="${exp.link}">access here</a> : <p></p> }
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">${exp.date}</span></div>
                     </div>
