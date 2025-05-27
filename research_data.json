@@ -15,6 +15,14 @@
                              "link" : "#",
                             "details": "A browser extension for privacy when using LLM chatbots",
                             "date" : "2025"
+                },
+                {
+                            "type" : "Ongoing work",
+                            "title": "Drought Severity Prediction for Sub-Saharan Africa using machine learning and remote sensing",
+                            "authors": "",
+                            "link" : "#",
+                            "details": "This project leverages machine learning (ML) and remote sensing to develop an AI-driven model for drought severity prediction. By integrating satellite-deriveclimate variables (e.g., precipitation, temperature, soil moisture, and vegetation indices) with historical drought records, the model identifies patterns and forecasts drought intensity with high accuracy.",
+                            "date" : "2025"
                 }
      
   ]
