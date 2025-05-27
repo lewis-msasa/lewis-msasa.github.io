@@ -7,6 +7,14 @@
                      "link" : "https://arxiv.org/abs/2505.01242",
                     "details": "Malawi-BD- A dataset for machine learning object detection and damage classification for Sub-Saharan Africa. Using Machine learning and remote sensing",
                     "date" : "2024"
+                },
+                {
+                            "type" : "Paper",
+                            "title": "Cloak: Transparent, Privacy-First, Small-Locally-Hosted LLM Powered Redaction for AI Chat Interfaces",
+                            "authors": "Msasa, Kasamba, Martin, Sriram, Rodriguez-Arias",
+                             "link" : "#",
+                            "details": "A browser extension for privacy when using LLM chatbots",
+                            "date" : "2025"
                 }
      
   ]
