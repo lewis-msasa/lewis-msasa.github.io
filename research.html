@@ -78,12 +78,12 @@
                 container.innerHTML = `                  
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">${exp.title} (${exp.paper})</h3>
+                            <h3 class="mb-0">${exp.type} (${exp.paper})</h3>
                             <div class="subheading mb-3">${exp.authors}</div>
                             <p>${exp.details}</p>
                             <a href="${exp.link}">access here</a>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">${exp.year}</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">${exp.date}</span></div>
                     </div>
                 `;
                 experienceBody.append(container);
